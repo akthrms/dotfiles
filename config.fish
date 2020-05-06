@@ -38,3 +38,8 @@ set -U RUST_SRC_PATH $HOME/.rustup/toolchains/nightly-x86_64-apple-darwin/lib/ru
 
 # roswell
 set -U fish_user_paths $HOME/.roswell/bin $fish_user_paths
+
+# fish
+set -g fish_prompt_pwd_dir_length 0 # ディレクト名を短縮しない
+set -g theme_newline_cursor yes # カーソルを改行する
+set -g theme_display_date no # 実行時間を表示しない
